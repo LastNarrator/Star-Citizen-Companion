@@ -1,0 +1,8 @@
+{
+"Name": "Orion",
+"Manufacturer": "Roberts Space Industries",
+"Status": "In Concept",
+"Normal Price": "$575",
+"Warbond Price": "N/A",
+"Loaners": "Prospector, MOLE"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "Avenger Stalker",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$60",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

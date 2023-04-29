@@ -1,0 +1,8 @@
+{
+"Name": "C8X Pisces Expedition",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$45",
+"Warbond Price": "$40",
+"Loaners": "N/A"
+}

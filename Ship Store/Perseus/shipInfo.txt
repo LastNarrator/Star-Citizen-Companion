@@ -1,0 +1,8 @@
+{
+"Name": "Perseus",
+"Manufacturer": "Roberts Space Industries",
+"Status": "In Concept",
+"Normal Price": "$675",
+"Warbond Price": "$600",
+"Loaners": "Hammerhead, Vanguard Harbinger"
+}

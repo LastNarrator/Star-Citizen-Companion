@@ -1,0 +1,8 @@
+{
+"Name": "Freelancer MIS",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$175",
+"Warbond Price": "$165",
+"Loaners": "N/A"
+}

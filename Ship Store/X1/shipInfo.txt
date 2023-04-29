@@ -1,0 +1,8 @@
+{
+"Name": "X1",
+"Manufacturer": "Origin Jumpworks",
+"Status": "In Concept",
+"Normal Price": "$40",
+"Warbond Price": "$35",
+"Loaners": "Aurora MR, Nox"
+}

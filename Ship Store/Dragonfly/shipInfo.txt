@@ -1,0 +1,8 @@
+{
+"Name": "Dragonfly",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$40",
+"Warbond Price": "$35",
+"Loaners": "N/A"
+}

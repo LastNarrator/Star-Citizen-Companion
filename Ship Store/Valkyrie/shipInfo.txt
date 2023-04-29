@@ -1,0 +1,8 @@
+{
+"Name": "Valkyrie",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$375",
+"Warbond Price": "$350",
+"Loaners": "N/A"
+}

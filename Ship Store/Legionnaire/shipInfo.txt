@@ -1,0 +1,8 @@
+{
+"Name": "Legionnaire",
+"Manufacturer": "Anvil Aerospace",
+"Status": "In Concept",
+"Normal Price": "$120",
+"Warbond Price": "$100",
+"Loaners": "Vanguard Hoplite"
+}

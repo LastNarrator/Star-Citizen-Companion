@@ -1,0 +1,8 @@
+{
+"Name": "Aurora LX",
+"Manufacturer": "Roberts Space Industries",
+"Status": "Flight Ready",
+"Normal Price": "$35",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

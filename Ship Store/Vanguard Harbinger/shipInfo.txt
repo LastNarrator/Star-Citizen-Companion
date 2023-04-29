@@ -1,0 +1,8 @@
+{
+"Name": "Vanguard Harbinger",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$290",
+"Warbond Price": "$270",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "Liberator",
+"Manufacturer": "Anvil Aerospace",
+"Status": "In Concept",
+"Normal Price": "$575",
+"Warbond Price": "$500",
+"Loaners": "M2 Hercules, F7C-M Super Hornet"
+}

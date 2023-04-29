@@ -1,0 +1,8 @@
+{
+"Name": "Cyclone",
+"Manufacturer": "Tumbril Land Systems",
+"Status": "Flight Ready",
+"Normal Price": "$55",
+"Warbond Price": "$40",
+"Loaners": "N/A"
+}

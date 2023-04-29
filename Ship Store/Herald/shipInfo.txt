@@ -1,0 +1,8 @@
+{
+"Name": "Herald",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$85",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

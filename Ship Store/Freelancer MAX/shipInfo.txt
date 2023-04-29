@@ -1,0 +1,8 @@
+{
+"Name": "Freelancer MAX",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$150",
+"Warbond Price": "$140",
+"Loaners": "N/A"
+}

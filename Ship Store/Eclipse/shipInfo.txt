@@ -1,0 +1,8 @@
+{
+"Name": "Eclipse",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$300",
+"Warbond Price": "$275",
+"Loaners": "N/A"
+}

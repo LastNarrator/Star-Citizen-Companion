@@ -1,0 +1,8 @@
+{
+"Name": "Kraken",
+"Manufacturer": "Drake Interplanetary",
+"Status": "In Concept",
+"Normal Price": "$1,650",
+"Warbond Price": "$1,400",
+"Loaners": "Hammerhead, Caterpillar, Buccaneer"
+}

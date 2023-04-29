@@ -1,0 +1,8 @@
+{
+"Name": "Idris-M",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Squadron 42",
+"Normal Price": "$1,000",
+"Warbond Price": "N/A",
+"Loaners": "Hammerhead, Vanguard Harbinger, MPUV Personnel"
+}

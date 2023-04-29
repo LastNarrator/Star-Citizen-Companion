@@ -1,0 +1,8 @@
+{
+"Name": "Mustang Omega",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "N/A",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "325a",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$70",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

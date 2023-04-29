@@ -1,0 +1,8 @@
+{
+"Name": "Idris-P",
+"Manufacturer": "Aegis Dynamics",
+"Status": "In Production",
+"Normal Price": "$1,500",
+"Warbond Price": "$1,300",
+"Loaners": "Hammerhead, Vanguard Harbinger, MPUV Personnel"
+}

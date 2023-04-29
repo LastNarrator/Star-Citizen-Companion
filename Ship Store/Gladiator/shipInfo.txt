@@ -1,0 +1,8 @@
+{
+"Name": "Gladiator",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$165",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

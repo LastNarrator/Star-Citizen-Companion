@@ -1,0 +1,8 @@
+{
+"Name": "Mustang Gamma",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "$55",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

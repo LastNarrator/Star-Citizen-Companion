@@ -1,0 +1,8 @@
+{
+"Name": "Mustang Alpha",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "$30",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

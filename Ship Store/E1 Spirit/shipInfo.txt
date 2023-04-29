@@ -1,0 +1,8 @@
+{
+"Name": "E1 Spirit",
+"Manufacturer": "Crusader Industries",
+"Status": "In Production",
+"Normal Price": "$150",
+"Warbond Price": "$135",
+"Loaners": "Cutlass Steel"
+}

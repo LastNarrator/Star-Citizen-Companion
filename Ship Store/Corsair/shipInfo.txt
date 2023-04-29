@@ -1,0 +1,8 @@
+{
+"Name": "Corsair",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$250",
+"Warbond Price": "$225",
+"Loaners": "N/A"
+}

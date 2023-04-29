@@ -1,0 +1,8 @@
+{
+"Name": "Reclaimer",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$400",
+"Warbond Price": "$350",
+"Loaners": "N/A"
+}

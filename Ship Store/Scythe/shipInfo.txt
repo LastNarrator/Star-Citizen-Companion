@@ -1,0 +1,8 @@
+{
+"Name": "Scythe",
+"Manufacturer": "Vanduul Clans",
+"Status": "Flight Ready",
+"Normal Price": "$300",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

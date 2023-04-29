@@ -1,0 +1,8 @@
+{
+"Name": "600i Touring",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$435",
+"Warbond Price": "$405",
+"Loaners": "N/A"
+}

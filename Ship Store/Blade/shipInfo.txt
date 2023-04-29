@@ -1,0 +1,8 @@
+{
+"Name": "Blade",
+"Manufacturer": "Esperia",
+"Status": "Flight Ready",
+"Normal Price": "$275",
+"Warbond Price": "$250",
+"Loaners": "N/A"
+}

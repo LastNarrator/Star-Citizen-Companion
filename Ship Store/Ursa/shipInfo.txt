@@ -1,0 +1,8 @@
+{
+"Name": "Ursa",
+"Manufacturer": "Roberts Space Industries",
+"Status": "Flight Ready",
+"Normal Price": "$50",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

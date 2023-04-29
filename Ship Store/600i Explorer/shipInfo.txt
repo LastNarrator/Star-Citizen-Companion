@@ -1,0 +1,8 @@
+{
+"Name": "600i Explorer",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$475",
+"Warbond Price": "$435",
+"Loaners": "G12"
+}

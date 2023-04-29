@@ -1,0 +1,8 @@
+{
+"Name": "M50",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$100",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

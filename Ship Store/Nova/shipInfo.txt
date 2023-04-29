@@ -1,0 +1,8 @@
+{
+"Name": "Nova",
+"Manufacturer": "Tumbril Land Systems",
+"Status": "Flight Ready",
+"Normal Price": "$120",
+"Warbond Price": "$95",
+"Loaners": "Aurora MR"
+}

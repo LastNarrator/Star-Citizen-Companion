@@ -1,0 +1,8 @@
+{
+"Name": "Ranger RC",
+"Manufacturer": "Tumbril Land Systems",
+"Status": "In Concept",
+"Normal Price": "$35",
+"Warbond Price": "$30",
+"Loaners": "Cyclone RC"
+}

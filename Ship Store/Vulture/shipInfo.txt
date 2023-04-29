@@ -1,0 +1,8 @@
+{
+"Name": "Vulture",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$175",
+"Warbond Price": "$150",
+"Loaners": "Buccaneer"
+}

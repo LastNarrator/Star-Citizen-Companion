@@ -1,0 +1,8 @@
+{
+"Name": "Ares Ion",
+"Manufacturer": "Crusader Industries",
+"Status": "Flight Ready",
+"Normal Price": "$250",
+"Warbond Price": "$220",
+"Loaners": "N/A"
+}

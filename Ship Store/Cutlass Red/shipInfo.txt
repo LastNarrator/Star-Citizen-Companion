@@ -1,0 +1,8 @@
+{
+"Name": "Cutlass Red",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$135",
+"Warbond Price": "$125",
+"Loaners": "N/A"
+}

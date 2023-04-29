@@ -1,0 +1,8 @@
+{
+"Name": "Hammerhead",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$725",
+"Warbond Price": "$600",
+"Loaners": "N/A"
+}

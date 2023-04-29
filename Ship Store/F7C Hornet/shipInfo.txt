@@ -1,0 +1,8 @@
+{
+"Name": "F7C Hornet",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$110",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

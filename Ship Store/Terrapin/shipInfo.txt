@@ -1,0 +1,8 @@
+{
+"Name": "Terrapin",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$220",
+"Warbond Price": "$210",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "RAFT",
+"Manufacturer": "Argo Astronautics",
+"Status": "Flight Ready",
+"Normal Price": "$125",
+"Warbond Price": "$110",
+"Loaners": "N/A"
+}

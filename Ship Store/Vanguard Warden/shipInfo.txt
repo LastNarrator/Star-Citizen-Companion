@@ -1,0 +1,8 @@
+{
+"Name": "Vanguard Warden",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$260",
+"Warbond Price": "$245",
+"Loaners": "N/A"
+}

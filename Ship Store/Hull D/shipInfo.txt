@@ -1,0 +1,8 @@
+{
+"Name": "Hull D",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "In Concept",
+"Normal Price": "$450",
+"Warbond Price": "N/A",
+"Loaners": "Hull A, C2 Hercules"
+}

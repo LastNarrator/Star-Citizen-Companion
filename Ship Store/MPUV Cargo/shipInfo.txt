@@ -1,0 +1,8 @@
+{
+"Name": "MPUV Cargo",
+"Manufacturer": "Argo Astronautics",
+"Status": "Flight Ready",
+"Normal Price": "$35",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

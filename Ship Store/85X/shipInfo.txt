@@ -1,0 +1,8 @@
+{
+"Name": "85X",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$50",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

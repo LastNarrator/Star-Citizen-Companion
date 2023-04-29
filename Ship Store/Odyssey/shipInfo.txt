@@ -1,0 +1,8 @@
+{
+"Name": "Odyssey",
+"Manufacturer": "Mushashi Industrial and Starflight Concern",
+"Status": "In Concept",
+"Normal Price": "$700",
+"Warbond Price": "$625",
+"Loaners": "Carrack, Nomad, Reliant Kore"
+}

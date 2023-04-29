@@ -1,0 +1,8 @@
+{
+"Name": "Kraken Privateer",
+"Manufacturer": "Drake Interplanetary",
+"Status": "In Concept",
+"Normal Price": "$2,000",
+"Warbond Price": "$1,700",
+"Loaners": "Hammerhead, Caterpillar, Buccaneer"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "Caterpillar",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$330",
+"Warbond Price": "$295",
+"Loaners": "N/A"
+}

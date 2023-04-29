@@ -1,0 +1,8 @@
+{
+"Name": "Constellation Andromeda",
+"Manufacturer": "Roberts Space Industries",
+"Status": "Flight Ready",
+"Normal Price": "$240",
+"Warbond Price": "N/A",
+"Loaners": "P-52 Merlin"
+}

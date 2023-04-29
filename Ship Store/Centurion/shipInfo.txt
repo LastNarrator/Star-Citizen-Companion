@@ -1,0 +1,8 @@
+{
+"Name": "Centurion",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$110",
+"Warbond Price": "$95",
+"Loaners": "N/A"
+}

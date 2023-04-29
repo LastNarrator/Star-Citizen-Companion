@@ -1,0 +1,8 @@
+{
+"Name": "Railen",
+"Manufacturer": "Gatac Manufacture",
+"Status": "In Concept",
+"Normal Price": "$225",
+"Warbond Price": "$200",
+"Loaners": "Constellation Taurus, Khartu-al, Talon"
+}

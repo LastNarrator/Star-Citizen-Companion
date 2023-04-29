@@ -1,0 +1,8 @@
+{
+"Name": "G12",
+"Manufacturer": "Origin Jumpworks",
+"Status": "In Concept",
+"Normal Price": "$60",
+"Warbond Price": "$55",
+"Loaners": "Cyclone TR"
+}

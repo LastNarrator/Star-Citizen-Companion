@@ -1,0 +1,8 @@
+{
+"Name": "F7C-R Hornet Tracker",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$140",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

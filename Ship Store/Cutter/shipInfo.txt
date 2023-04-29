@@ -1,0 +1,8 @@
+{
+"Name": "Cutter",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$45",
+"Warbond Price": "$40",
+"Loaners": "N/A"
+}

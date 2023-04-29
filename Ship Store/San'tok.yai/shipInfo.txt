@@ -1,0 +1,8 @@
+{
+"Name": "San'tok.yai",
+"Manufacturer": "Aopoa",
+"Status": "In Production",
+"Normal Price": "$220",
+"Warbond Price": "$195",
+"Loaners": "Khartu-al"
+}

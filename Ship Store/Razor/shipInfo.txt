@@ -1,0 +1,8 @@
+{
+"Name": "Razor",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$145",
+"Warbond Price": "$120",
+"Loaners": "N/A"
+}

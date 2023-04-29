@@ -1,0 +1,8 @@
+{
+"Name": "Merchantman",
+"Manufacturer": "Banu Souli",
+"Status": "In Production",
+"Normal Price": "$650",
+"Warbond Price": "$600",
+"Loaners": "C2 Hercules, Defender"
+}

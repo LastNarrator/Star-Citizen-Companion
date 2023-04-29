@@ -1,0 +1,8 @@
+{
+"Name": "Mercury",
+"Manufacturer": "Crusader Industries",
+"Status": "Flight Ready",
+"Normal Price": "$260",
+"Warbond Price": "$230",
+"Loaners": "N/A"
+}

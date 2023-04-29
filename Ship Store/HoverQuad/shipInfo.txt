@@ -1,0 +1,8 @@
+{
+"Name": "HoverQuad",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "$30",
+"Warbond Price": "$25",
+"Loaners": "N/A"
+}

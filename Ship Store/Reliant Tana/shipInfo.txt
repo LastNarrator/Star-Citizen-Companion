@@ -1,0 +1,8 @@
+{
+"Name": "Reliant Tana",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$85",
+"Warbond Price": "$75",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "Hurricane",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$195",
+"Warbond Price": "$185",
+"Loaners": "N/A"
+}

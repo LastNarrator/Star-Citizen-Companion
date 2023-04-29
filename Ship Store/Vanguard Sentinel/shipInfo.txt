@@ -1,0 +1,8 @@
+{
+"Name": "Vanguard Sentinel",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$275",
+"Warbond Price": "$260",
+"Loaners": "N/A"
+}

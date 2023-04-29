@@ -1,0 +1,8 @@
+{
+"Name": "Defender",
+"Manufacturer": "Banu Souli",
+"Status": "Flight Ready",
+"Normal Price": "$220",
+"Warbond Price": "$200",
+"Loaners": "N/A"
+}

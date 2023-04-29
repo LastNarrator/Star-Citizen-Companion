@@ -1,0 +1,8 @@
+{
+"Name": "Buccaneer",
+"Manufacturer": "Drake Interplanetary",
+"Status": "Flight Ready",
+"Normal Price": "$110",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

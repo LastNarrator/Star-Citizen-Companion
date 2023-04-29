@@ -1,0 +1,8 @@
+{
+"Name": "Scorpius Antares",
+"Manufacturer": "Roberts Space Industries",
+"Status": "Flight Ready",
+"Normal Price": "$230",
+"Warbond Price": "$210",
+"Loaners": "N/A"
+}

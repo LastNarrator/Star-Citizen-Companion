@@ -1,0 +1,8 @@
+{
+"Name": "Vanguard Hoplite",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$235",
+"Warbond Price": "$225",
+"Loaners": "N/A"
+}

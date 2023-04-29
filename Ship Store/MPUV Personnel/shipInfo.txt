@@ -1,0 +1,8 @@
+{
+"Name": "MPUV Personnel",
+"Manufacturer": "Argo Astronautics",
+"Status": "Flight Ready",
+"Normal Price": "$40",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

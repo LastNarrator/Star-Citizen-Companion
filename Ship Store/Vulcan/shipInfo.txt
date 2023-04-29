@@ -1,0 +1,8 @@
+{
+"Name": "Vulcan",
+"Manufacturer": "Aegis Dynamics",
+"Status": "In Concept",
+"Normal Price": "$200",
+"Warbond Price": "$185",
+"Loaners": "Starfarer"
+}

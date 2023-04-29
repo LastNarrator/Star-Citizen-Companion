@@ -1,0 +1,8 @@
+{
+"Name": "Prowler",
+"Manufacturer": "Esperia",
+"Status": "Flight Ready",
+"Normal Price": "$440",
+"Warbond Price": "$410",
+"Loaners": "N/A"
+}

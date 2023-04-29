@@ -1,0 +1,8 @@
+{
+"Name": "C8 Pisces",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "N/A",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "Idris-K",
+"Manufacturer": "Aegis Dynamics",
+"Status": "In Concept",
+"Normal Price": "$1,800",
+"Warbond Price": "$1,550",
+"Loaners": "Hammerhead, MPUV Personnel"
+}

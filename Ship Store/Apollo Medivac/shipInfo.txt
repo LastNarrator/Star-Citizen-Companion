@@ -1,0 +1,8 @@
+{
+"Name": "Apollo Medivac",
+"Manufacturer": "Roberts Space Industries",
+"Status": "In Concept",
+"Normal Price": "$275",
+"Warbond Price": "$250",
+"Loaners": "Cutlass Red"
+}

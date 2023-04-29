@@ -1,0 +1,8 @@
+{
+"Name": "C8R Pisces Rescue",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$65",
+"Warbond Price": "$60",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "A1 Spirit",
+"Manufacturer": "Crusader Industries",
+"Status": "In Production",
+"Normal Price": "$175",
+"Warbond Price": "$155",
+"Loaners": "Freelancer MIS"
+}

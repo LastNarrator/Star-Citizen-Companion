@@ -1,0 +1,8 @@
+{
+"Name": "Starfarer",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$300",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

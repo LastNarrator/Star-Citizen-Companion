@@ -1,0 +1,8 @@
+{
+"Name": "Nomad",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "$80",
+"Warbond Price": "$70",
+"Loaners": "N/A"
+}

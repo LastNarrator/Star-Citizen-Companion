@@ -1,0 +1,8 @@
+{
+"Name": "Sabre",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$170",
+"Warbond Price": "$160",
+"Loaners": "N/A"
+}

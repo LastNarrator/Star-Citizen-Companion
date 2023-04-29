@@ -1,0 +1,8 @@
+{
+"Name": "Glaive",
+"Manufacturer": "Esperia",
+"Status": "Flight Ready",
+"Normal Price": "$350",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

@@ -1,0 +1,8 @@
+{
+"Name": "C2 Hercules",
+"Manufacturer": "Crusader Industries",
+"Status": "Flight Ready",
+"Normal Price": "$400",
+"Warbond Price": "$370",
+"Loaners": "N/A"
+}

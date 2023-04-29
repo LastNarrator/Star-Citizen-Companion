@@ -1,0 +1,8 @@
+{
+"Name": "Razor LX",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$150",
+"Warbond Price": "$135",
+"Loaners": "N/A"
+}

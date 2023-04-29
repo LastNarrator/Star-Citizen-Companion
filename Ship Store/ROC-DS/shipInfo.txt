@@ -1,0 +1,8 @@
+{
+"Name": "ROC-DS",
+"Manufacturer": "Greycat Industrial",
+"Status": "Flight Ready",
+"Normal Price": "$75",
+"Warbond Price": "$70",
+"Loaners": "NH/A"
+}

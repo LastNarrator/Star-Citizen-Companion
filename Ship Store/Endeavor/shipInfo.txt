@@ -1,0 +1,8 @@
+{
+"Name": "Endeavor",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "In Concept",
+"Normal Price": "$350",
+"Warbond Price": "N/A",
+"Loaners": "Starfarer, Cutlass Red"
+}

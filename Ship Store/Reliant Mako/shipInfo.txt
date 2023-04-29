@@ -1,0 +1,8 @@
+{
+"Name": "Reliant Mako",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$95",
+"Warbond Price": "$85",
+"Loaners": "N/A"
+}

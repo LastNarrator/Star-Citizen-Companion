@@ -1,0 +1,8 @@
+{
+"Name": "Nautilus",
+"Manufacturer": "Aegis Dynamics",
+"Status": "In Concept",
+"Normal Price": "$725",
+"Warbond Price": "$675",
+"Loaners": "Hammerhead, Avenger Titan"
+}

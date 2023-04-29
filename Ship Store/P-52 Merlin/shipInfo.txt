@@ -1,0 +1,8 @@
+{
+"Name": "P-52 Merlin",
+"Manufacturer": "Kruger Intergalactic",
+"Status": "Flight Ready",
+"Normal Price": "$25",
+"Warbond Price": "$20",
+"Loaners": "N/A"
+}

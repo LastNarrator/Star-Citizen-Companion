@@ -1,0 +1,8 @@
+{
+"Name": "Pioneer",
+"Manufacturer": "Consolidated Outland",
+"Status": "In Concept",
+"Normal Price": "$850",
+"Warbond Price": "$750",
+"Loaners": "Caterpillar, Nomad"
+}

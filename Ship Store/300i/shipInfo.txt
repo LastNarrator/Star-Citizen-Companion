@@ -1,0 +1,8 @@
+{
+"Name": "300i",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$60",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

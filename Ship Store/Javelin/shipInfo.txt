@@ -1,0 +1,8 @@
+{
+"Name": "Javelin",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Squadron 42",
+"Normal Price": "$3,000",
+"Warbond Price": "$2,700",
+"Loaners": "Hammerhead, Vanguard Harbinger, MPUV Cargo"
+}

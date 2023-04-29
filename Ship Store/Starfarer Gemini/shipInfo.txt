@@ -1,0 +1,8 @@
+{
+"Name": "Starfarer Gemini",
+"Manufacturer": "Musashi Industrial and Starflight Concern",
+"Status": "Flight Ready",
+"Normal Price": "$340",
+"Warbond Price": "$320",
+"Loaners": "N/A"
+}

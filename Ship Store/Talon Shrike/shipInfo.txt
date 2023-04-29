@@ -1,0 +1,8 @@
+{
+"Name": "Talon Shrike",
+"Manufacturer": "Esperia",
+"Status": "Flight Ready",
+"Normal Price": "$115",
+"Warbond Price": "$100",
+"Loaners": "N/A"
+}

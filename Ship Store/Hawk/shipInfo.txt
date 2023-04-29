@@ -1,0 +1,8 @@
+{
+"Name": "Hawk",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$100",
+"Warbond Price": "$90",
+"Loaners": "N/A"
+}

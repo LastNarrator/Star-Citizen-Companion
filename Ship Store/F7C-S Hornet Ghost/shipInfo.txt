@@ -1,0 +1,8 @@
+{
+"Name": "F7C-S Hornet Ghost",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$125",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

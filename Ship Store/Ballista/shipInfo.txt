@@ -1,0 +1,8 @@
+{
+"Name": "Ballista",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$140",
+"Warbond Price": "$120",
+"Loaners": "N/A"
+}

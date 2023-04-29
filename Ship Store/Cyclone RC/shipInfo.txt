@@ -1,0 +1,8 @@
+{
+"Name": "Cyclone RC",
+"Manufacturer": "Tumbril Land Systems",
+"Status": "Flight Ready",
+"Normal Price": "$65",
+"Warbond Price": "$50",
+"Loaners": "N/A"
+}

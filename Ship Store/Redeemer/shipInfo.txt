@@ -1,0 +1,8 @@
+{
+"Name": "Redeemer",
+"Manufacturer": "Aegis Dynamics",
+"Status": "Flight Ready",
+"Normal Price": "$325",
+"Warbond Price": "$275",
+"Loaners": "N/A"
+}

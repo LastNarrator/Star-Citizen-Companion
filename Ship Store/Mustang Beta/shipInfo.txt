@@ -1,0 +1,8 @@
+{
+"Name": "Mustang Beta",
+"Manufacturer": "Consolidated Outland",
+"Status": "Flight Ready",
+"Normal Price": "$40",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

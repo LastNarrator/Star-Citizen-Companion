@@ -1,0 +1,8 @@
+{
+"Name": "MOLE",
+"Manufacturer": "Argo Astronautics",
+"Status": "Flight Ready",
+"Normal Price": "$315",
+"Warbond Price": "$275",
+"Loaners": "N/A"
+}

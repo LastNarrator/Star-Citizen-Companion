@@ -1,0 +1,8 @@
+{
+"Name": "Carrack",
+"Manufacturer": "Anvil Aerospace",
+"Status": "Flight Ready",
+"Normal Price": "$600",
+"Warbond Price": "$500",
+"Loaners": "C8 Pisces, Ursa"
+}

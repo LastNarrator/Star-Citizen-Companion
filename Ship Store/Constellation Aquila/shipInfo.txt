@@ -1,0 +1,8 @@
+{
+"Name": "Constellation Aquila",
+"Manufacturer": "Roberts Space Industries",
+"Status": "Flight Ready",
+"Normal Price": "$310",
+"Warbond Price": "$275",
+"Loaners": "P-52 Merlin, Ursa"
+}

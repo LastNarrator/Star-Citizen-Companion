@@ -1,0 +1,8 @@
+{
+"Name": "350r",
+"Manufacturer": "Origin Jumpworks",
+"Status": "Flight Ready",
+"Normal Price": "$125",
+"Warbond Price": "N/A",
+"Loaners": "N/A"
+}

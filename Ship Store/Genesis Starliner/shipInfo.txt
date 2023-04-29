@@ -1,0 +1,8 @@
+{
+"Name": "Genesis Starliner",
+"Manufacturer": "Crusader Industries",
+"Status": "In Concept",
+"Normal Price": "$400",
+"Warbond Price": "N/A",
+"Loaners": "C2 Hercules"
+}

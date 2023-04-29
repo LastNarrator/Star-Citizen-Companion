@@ -1,0 +1,8 @@
+{
+"Name": "Galaxy",
+"Manufacturer": "Roberts Space Industries",
+"Status": "In Concept",
+"Normal Price": "$380",
+"Warbond Price": "$350",
+"Loaners": "Carrack"
+}
