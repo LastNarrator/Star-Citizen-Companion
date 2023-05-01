@@ -314,9 +314,9 @@ class Companion(EasyFrame):
                     warbond = int(warbond)
                     discountedTotal = discountedTotal + warbond
         if priceTotal != '':
-            self.fullPrice = self.addLabel(text = "$"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
+            self.fullPrice = self.addLabel(text = "Standard Price: $"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
         if discountedTotal != '':
-            self.warbondPrice = self.addLabel(text = "$"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
+            self.warbondPrice = self.addLabel(text = "Warbond Price: $"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
         os.chdir(programDirectory)
         
     def costTotalWishlist(self):
@@ -355,9 +355,9 @@ class Companion(EasyFrame):
                     warbond = int(warbond)
                     discountedTotal = discountedTotal + warbond
         if priceTotal != '':
-            self.fullPrice = self.addLabel(text = "$"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
+            self.fullPrice = self.addLabel(text = "Standard Price: $"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
         if discountedTotal != '':
-            self.warbondPrice = self.addLabel(text = "$"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
+            self.warbondPrice = self.addLabel(text = "Warbond Price: $"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
         os.chdir(programDirectory)
         
     def clearFrame(self):
