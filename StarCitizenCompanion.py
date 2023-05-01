@@ -27,7 +27,7 @@ hangarList = []
 wishList = []
 
 #################### Above: Module Imports ############################
-#################### Below: Main Window####### ########################
+#################### Below: Main Window ###############################
 
 class Companion(EasyFrame):
     '''Offers the backbone of the program GUI'''
@@ -56,25 +56,35 @@ class Companion(EasyFrame):
         self.own['state'] = DISABLED
         self.all['state'] = NORMAL
         self.want['state'] = NORMAL
-        self.remove = self.addButton(text = "Remove from Hangar", row = 2, column = 6, command = self.hangarRemove)
-        self.add2.destroy()
+        self.button1.destroy()
+        self.button2.destroy()
+        self.button1 = self.addButton(text = "Remove from Hangar", row = 2, column = 6, command = self.hangarRemove)
+        self.button2 = self.addButton(text = "Show Loaners", row = 3, column = 6, command = self.hangarLoaners)
         self.shipFull.clear()
         listSize = self.shipFull.size()
         hangarDirectory = programDirectory+"/Hangar"
         hangarList = os.listdir(hangarDirectory)
         for item in hangarList:
-            if listSize <= 165:
-                self.ship = self.shipFull.insert(END, item)
+            if item != "Loaners":
+                if listSize <= 165:
+                    self.ship = self.shipFull.insert(END, item)
+        self.costTotalHangar()
         
     def ShipStore(self):
         '''Opens the Ship Store and populates it'''
         self.own['state'] = NORMAL
         self.all['state'] = DISABLED
         self.want['state'] = NORMAL
-        self.add1 = self.addButton(text = "Add to Hangar", row = 2, column = 6, command = self.hangarAdd)
-        self.add2 = self.addButton(text = "Add to Wishlist", row = 3, column = 6, command = self.wishAdd)
-        if hasattr(self, 'remove'):
-            self.remove.destroy()
+        if hasattr(self, 'fullPrice'):
+            self.fullPrice.destroy()
+        if hasattr(self, 'warbondPrice'):
+            self.warbondPrice.destroy()
+        if hasattr(self, 'button1'):
+            self.button1.destroy()
+        if hasattr(self, 'button2'):
+            self.button2.destroy()
+        self.button1 = self.addButton(text = "Add to Hangar", row = 2, column = 6, command = self.hangarAdd)
+        self.button2 = self.addButton(text = "Add to Wishlist", row = 3, column = 6, command = self.wishAdd)
         self.shipFull.clear()
         listSize = self.shipFull.size()
         for item in shipList:
@@ -88,15 +98,19 @@ class Companion(EasyFrame):
         self.own['state'] = NORMAL
         self.all['state'] = NORMAL
         self.want['state'] = DISABLED
-        self.add2.destroy()
-        self.remove = self.addButton(text = "Remove from Wishlist", row = 2, column = 6, command = self.wishRemove)
+        self.button1.destroy()
+        self.button2.destroy()
+        self.button1 = self.addButton(text = "Remove from Wishlist", row = 2, column = 6, command = self.wishRemove)
+        self.button2 = self.addButton(text = "Show Loaners", row = 3, column = 6, command = self.wishLoaners)
         self.shipFull.clear()
         listSize = self.shipFull.size()
         wishDirectory = programDirectory+"/Wishlist"
         wishList = os.listdir(wishDirectory)
         for item in wishList:
-            if listSize <= 165:
-                self.ship = self.shipFull.insert(END, item)
+            if item != "Loaners":
+                if listSize <= 165:
+                    self.ship = self.shipFull.insert(END, item)
+        self.costTotalWishlist()
                 
     def hangarAdd(self):
         '''Copies the ship's Ship Store directory into the Hangar directory, and the loaners into a Loaners directory inside the ship's directory.'''
@@ -108,6 +122,7 @@ class Companion(EasyFrame):
         import shutil
         global programDirectory
         global hangarList
+        os.chdir(programDirectory)
         
         desiredShip = self.shipFull.getSelectedItem()
         os.chdir("Ship Store/")
@@ -122,6 +137,10 @@ class Companion(EasyFrame):
         
         hangarDirectory = programDirectory+"/Hangar"
         hangarList = os.listdir(hangarDirectory)
+        
+        loanerDirectory = programDirectory+"/Hangar/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
         if desiredShip not in hangarList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
@@ -129,7 +148,8 @@ class Companion(EasyFrame):
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
-                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Hangar\\"+desiredShip+"\\Loaners\\"+word)
+                    if word not in loanerList:
+                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Hangar\\Loaners\\"+word)
                 else:
                     print("Potential file error, check loaners")
         self.messageBox(title=desiredShip, message = desiredShip+" added to hangar.")
@@ -144,6 +164,7 @@ class Companion(EasyFrame):
         import shutil
         global programDirectory
         global wishList
+        os.chdir(programDirectory)
         
         desiredShip = self.shipFull.getSelectedItem()
         os.chdir("Ship Store/")
@@ -158,6 +179,10 @@ class Companion(EasyFrame):
         
         wishDirectory = programDirectory+"/Wishlist"
         wishList = os.listdir(wishDirectory)
+        
+        loanerDirectory = programDirectory+"/Wishlist/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
         if desiredShip not in wishList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
@@ -165,7 +190,8 @@ class Companion(EasyFrame):
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
-                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Wishlist\\"+desiredShip+"\\Loaners\\"+word)
+                    if word not in loanerList:
+                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Wishlist\\Loaners\\"+word)
                 else:
                     print("Potential file error, check loaners")
         self.messageBox(title=desiredShip, message = desiredShip+" added to wishlist.")
@@ -176,15 +202,38 @@ class Companion(EasyFrame):
         global shipList
         global loaners
         import os
+        import json
         import shutil
         global programDirectory
         global hangarList
+        os.chdir(programDirectory)
+        
         desiredShip = self.shipFull.getSelectedItem()
         hangarList = os.listdir(programDirectory+"\\Hangar")
+        
+        desiredShip = self.shipFull.getSelectedItem()
+        os.chdir("Ship Store/")
+        os.chdir(desiredShip)
+        file = open("shipInfo.txt", 'r')
+        infoJson = file.read()
+        file.close()
+        os.chdir(programDirectory)
+        shipInfo = json.loads(infoJson)
+        loaners = shipInfo["Loaners"]
+        loaners = loaners.split(", ")
+        
+        loanerDirectory = programDirectory+"/Wishlist/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
         if desiredShip in hangarList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
             shutil.rmtree(programDirectory+"\\Hangar\\"+desiredShip)
+        if 'N/A' not in loaners:
+            for word in loaners:
+                if word in shipList:
+                    if word in loanerList:
+                        shutil.rmtree(programDirectory+"\\Hangar\\Loaners\\"+word)
         hangarList = os.listdir(programDirectory+"\\Hangar")
         self.Hangar()
                     
@@ -194,17 +243,122 @@ class Companion(EasyFrame):
         global shipList
         global loaners
         import os
+        import json
         import shutil
         global programDirectory
         global wishList
+        os.chdir(programDirectory)
+        
         desiredShip = self.shipFull.getSelectedItem()
         wishList = os.listdir(programDirectory+"\\Wishlist")
+        
+        desiredShip = self.shipFull.getSelectedItem()
+        os.chdir("Ship Store/")
+        os.chdir(desiredShip)
+        file = open("shipInfo.txt", 'r')
+        infoJson = file.read()
+        file.close()
+        os.chdir(programDirectory)
+        shipInfo = json.loads(infoJson)
+        loaners = shipInfo["Loaners"]
+        loaners = loaners.split(", ")
+        
+        loanerDirectory = programDirectory+"/Wishlist/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
         if desiredShip in wishList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
             shutil.rmtree(programDirectory+"\\Wishlist\\"+desiredShip)
+        if 'N/A' not in loaners:
+            for word in loaners:
+                if word in shipList:
+                    if word in loanerList:
+                        shutil.rmtree(programDirectory+"\\Wishlist\\Loaners\\"+word)
         wishList = os.listdir(programDirectory+"\\Wishlist")
         self.Wishlist()
+        
+    def costTotalHangar(self):
+        import os
+        import json
+        global programDirectory
+        os.chdir(programDirectory)
+        
+        priceTotal = 0
+        discountedTotal = 0
+        
+        hangarList = os.listdir(programDirectory+"\\Hangar")
+        for item in hangarList:
+            if item != "Loaners":
+                os.chdir("Ship Store/")
+                os.chdir(item)
+                file = open("shipInfo.txt", 'r')
+                infoJson = file.read()
+                file.close()
+                os.chdir(programDirectory)
+                shipInfo = json.loads(infoJson)
+                
+                cost = shipInfo["Normal Price"]
+                cost = cost.replace('$','')
+                cost = cost.replace(',','')
+
+                warbond = shipInfo["Warbond Price"]
+                warbond = warbond.replace('$','')
+                warbond = warbond.replace(',','')
+
+                
+                if cost != 'N/A':
+                    cost = int(cost)
+                    priceTotal = priceTotal + cost
+                if warbond != 'N/A':
+                    warbond = int(warbond)
+                    discountedTotal = discountedTotal + warbond
+        if priceTotal != '':
+            self.fullPrice = self.addLabel(text = "$"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
+        if discountedTotal != '':
+            self.warbondPrice = self.addLabel(text = "$"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
+        os.chdir(programDirectory)
+        
+    def costTotalWishlist(self):
+        import os
+        import json
+        global programDirectory
+        os.chdir(programDirectory)
+        
+        priceTotal = 0
+        discountedTotal = 0
+        
+        wishList = os.listdir(programDirectory+"\\Wishlist")
+        for item in wishList:
+            if item != "Loaners":
+                os.chdir("Ship Store/")
+                os.chdir(item)
+                file = open("shipInfo.txt", 'r')
+                infoJson = file.read()
+                file.close()
+                os.chdir(programDirectory)
+                shipInfo = json.loads(infoJson)
+                
+                cost = shipInfo["Normal Price"]
+                cost = cost.replace('$','')
+                cost = cost.replace(',','')
+
+                warbond = shipInfo["Warbond Price"]
+                warbond = warbond.replace('$','')
+                warbond = warbond.replace(',','')
+
+                
+                if cost != 'N/A':
+                    cost = int(cost)
+                    priceTotal = priceTotal + cost
+                if warbond != 'N/A':
+                    warbond = int(warbond)
+                    discountedTotal = discountedTotal + warbond
+        if priceTotal != '':
+            self.fullPrice = self.addLabel(text = "$"+str(priceTotal)+".00", row = 5, column = 5, sticky = N+W)
+        if discountedTotal != '':
+            self.warbondPrice = self.addLabel(text = "$"+str(discountedTotal)+".00", row = 5, column = 2, sticky = N+W)
+        os.chdir(programDirectory)
         
     def clearFrame(self):
         self.grid_forget()
@@ -215,6 +369,46 @@ class Companion(EasyFrame):
         self.clearFrame()
         Detail().mainloop()
         Companion().mainloop()
+    
+    def hangarLoaners(self):
+        global loaners
+        import os
+        import json
+        global programDirectory
+        os.chdir(programDirectory)
+        
+        os.chdir("Ship Store/")
+        
+        loanerDirectory = programDirectory+"/Hangar/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
+        self.button2.destroy()
+        self.button2 = self.addButton(text = "Show Normal", row = 3, column = 6, command = self.Hangar)
+        self.shipFull.clear()
+        listSize = self.shipFull.size()
+        for item in loanerList:
+            if listSize <= 165:
+                self.ship = self.shipFull.insert(END, item)
+   
+    def wishLoaners(self):
+        global loaners
+        import os
+        import json
+        global programDirectory
+        os.chdir(programDirectory)
+        
+        os.chdir("Ship Store/")
+        
+        loanerDirectory = programDirectory+"/Wishlist/Loaners"
+        loanerList = os.listdir(loanerDirectory)
+        
+        self.button2.destroy()
+        self.button2 = self.addButton(text = "Show Normal", row = 3, column = 6, command = self.Wishlist)
+        self.shipFull.clear()
+        listSize = self.shipFull.size()
+        for item in loanerList:
+            if listSize <= 165:
+                self.ship = self.shipFull.insert(END, item) 
    
 #################### Above: Main Window #################################
 #################### Below: Details Window ##############################
@@ -254,17 +448,15 @@ class Detail(EasyFrame):
             if column == 2:
                 row += 1
                 column = -1
-        loaners = shipInfo["Loaners"]
-        loaners = loaners.split(", ")
         
         os.chdir("Ship Store/"+desiredShip)
 
         panel = self.addPanel(row = 3, column = 0, columnspan = 3)
         canvas = panel.addCanvas(row = 3, column = 0, width = 500, height = 500)
-        img = Image.open(desiredShip+".jpg")
-        img = img.resize((1280,720), Image.LANCZOS)
-        img = ImageTk.PhotoImage(img)
-        canvas.drawImage(x = 20, y = 20, anchor=N+W, image=img)
+        self.img = Image.open(desiredShip+".jpg")
+        self.img = self.img.resize((1200,675), Image.LANCZOS)
+        self.img = ImageTk.PhotoImage(self.img)
+        canvas.drawImage(x = 0, y = 0, anchor="nw", image=self.img)
         
         os.chdir(programDirectory)
         
@@ -317,6 +509,22 @@ def houseKeeping():
                 hangarExist = True
                 hangarList = os.listdir(hangarDirectory)
                 hangarList.sort()
+                
+        loanersExist = False
+        os.chdir("Hangar")
+        loanerCheck = os.listdir(hangarDirectory)
+        while loanersExist == False:
+            if "Loaners" not in loanerCheck:
+                os.mkdir("Loaners")
+                loanersExist = True
+                loanersList = os.listdir(hangarDirectory)
+                loanersList.sort()
+            else:
+                loanersExist = True
+                loanersList = os.listdir(hangarDirectory)
+                loanersList.sort()
+        os.chdir(programDirectory)
+        
         wishlistExist = False
         while wishlistExist == False:
             if "Wishlist" not in currentDirectories:
@@ -328,6 +536,22 @@ def houseKeeping():
                 wishlistExist = True
                 wishList = os.listdir(wishDirectory)
                 wishList.sort()
+                
+        loanersExist = False
+        os.chdir("Wishlist")
+        loanerCheck = os.listdir(wishDirectory)
+        while loanersExist == False:
+            if "Loaners" not in loanerCheck:
+                os.mkdir("Loaners")
+                loanersExist = True
+                loanersList = os.listdir(wishDirectory)
+                loanersList.sort()
+            else:
+                loanersExist = True
+                loanersList = os.listdir(wishDirectory)
+                loanersList.sort()
+        os.chdir(programDirectory)
+        
     os.chdir(programDirectory)
     shipStore()
                 
