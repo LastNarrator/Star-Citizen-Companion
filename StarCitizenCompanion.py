@@ -144,12 +144,12 @@ class Companion(EasyFrame):
         if desiredShip not in hangarList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
-            shutil.copytree(programDirectory+"\\Ship Store\\"+desiredShip, programDirectory+"\\Hangar\\"+desiredShip)
+            shutil.copytree(programDirectory+"/Ship Store/"+desiredShip, programDirectory+"/Hangar/"+desiredShip)
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
                     if word not in loanerList:
-                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Hangar\\Loaners\\"+word)
+                        shutil.copytree(programDirectory+"/Ship Store/"+word, programDirectory+"/Hangar/Loaners/"+word)
                 else:
                     print("Potential file error, check loaners")
         self.messageBox(title=desiredShip, message = desiredShip+" added to hangar.")
@@ -186,12 +186,12 @@ class Companion(EasyFrame):
         if desiredShip not in wishList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
-            shutil.copytree(programDirectory+"\\Ship Store\\"+desiredShip, programDirectory+"\\Wishlist\\"+desiredShip)
+            shutil.copytree(programDirectory+"/Ship Store/"+desiredShip, programDirectory+"/Wishlist/"+desiredShip)
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
                     if word not in loanerList:
-                        shutil.copytree(programDirectory+"\\Ship Store\\"+word, programDirectory+"\\Wishlist\\Loaners\\"+word)
+                        shutil.copytree(programDirectory+"/Ship Store/"+word, programDirectory+"/Wishlist/Loaners/"+word)
                 else:
                     print("Potential file error, check loaners")
         self.messageBox(title=desiredShip, message = desiredShip+" added to wishlist.")
@@ -209,7 +209,7 @@ class Companion(EasyFrame):
         os.chdir(programDirectory)
         
         desiredShip = self.shipFull.getSelectedItem()
-        hangarList = os.listdir(programDirectory+"\\Hangar")
+        hangarList = os.listdir(programDirectory+"/Hangar")
         
         desiredShip = self.shipFull.getSelectedItem()
         os.chdir("Ship Store/")
@@ -228,13 +228,13 @@ class Companion(EasyFrame):
         if desiredShip in hangarList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
-            shutil.rmtree(programDirectory+"\\Hangar\\"+desiredShip)
+            shutil.rmtree(programDirectory+"/Hangar/"+desiredShip)
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
                     if word in loanerList:
-                        shutil.rmtree(programDirectory+"\\Hangar\\Loaners\\"+word)
-        hangarList = os.listdir(programDirectory+"\\Hangar")
+                        shutil.rmtree(programDirectory+"/Hangar/Loaners/"+word)
+        hangarList = os.listdir(programDirectory+"/Hangar")
         self.Hangar()
                     
     def wishRemove(self):
@@ -250,7 +250,7 @@ class Companion(EasyFrame):
         os.chdir(programDirectory)
         
         desiredShip = self.shipFull.getSelectedItem()
-        wishList = os.listdir(programDirectory+"\\Wishlist")
+        wishList = os.listdir(programDirectory+"/Wishlist")
         
         desiredShip = self.shipFull.getSelectedItem()
         os.chdir("Ship Store/")
@@ -269,13 +269,13 @@ class Companion(EasyFrame):
         if desiredShip in wishList:
             #shutil copytree function based on comment by nzot
             #https://stackoverflow.com/questions/1994488/copy-file-or-directories-recursively-in-python
-            shutil.rmtree(programDirectory+"\\Wishlist\\"+desiredShip)
+            shutil.rmtree(programDirectory+"/Wishlist/"+desiredShip)
         if 'N/A' not in loaners:
             for word in loaners:
                 if word in shipList:
                     if word in loanerList:
-                        shutil.rmtree(programDirectory+"\\Wishlist\\Loaners\\"+word)
-        wishList = os.listdir(programDirectory+"\\Wishlist")
+                        shutil.rmtree(programDirectory+"/Wishlist/Loaners/"+word)
+        wishList = os.listdir(programDirectory+"/Wishlist")
         self.Wishlist()
         
     def costTotalHangar(self):
@@ -287,7 +287,7 @@ class Companion(EasyFrame):
         priceTotal = 0
         discountedTotal = 0
         
-        hangarList = os.listdir(programDirectory+"\\Hangar")
+        hangarList = os.listdir(programDirectory+"/Hangar")
         for item in hangarList:
             if item != "Loaners":
                 os.chdir("Ship Store/")
@@ -328,7 +328,7 @@ class Companion(EasyFrame):
         priceTotal = 0
         discountedTotal = 0
         
-        wishList = os.listdir(programDirectory+"\\Wishlist")
+        wishList = os.listdir(programDirectory+"/Wishlist")
         for item in wishList:
             if item != "Loaners":
                 os.chdir("Ship Store/")
